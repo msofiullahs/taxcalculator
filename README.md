@@ -6,25 +6,25 @@
 git clone https://github.com/msofiullahs/taxcalculator.git
 ```
 
-```nginx
+```bash
 cd ./taxcalculator
 ```
 
-```composer
+```bash
 composer install
 ```
 
-```nginx
+```bash
 cp .env.example .env
 ```
 
-```artisan
+```bash
 php artisan key:generate
 ```
 
 ## Run PHPUnit Test
 
-```artisan
+```bash
 php artisan test
 ```
 
