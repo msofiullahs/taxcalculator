@@ -22,6 +22,12 @@ cp .env.example .env
 php artisan key:generate
 ```
 
+## Run Web
+
+```bash
+php artisan serve
+```
+
 ## Run PHPUnit Test
 
 ```bash
